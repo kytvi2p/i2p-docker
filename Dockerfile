@@ -46,4 +46,5 @@ VOLUME /var/lib/i2p
 USER i2psvc
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
-CMD ["/usr/bin/i2prouter", "console"]
+ENTRYPOINT ["/usr/bin/i2prouter"]
+CMD ["console"]

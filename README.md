@@ -1,4 +1,4 @@
-This is an unofficial Dockerized I2P within a Debian Jessie image.
+This is an unofficial Dockerized I2P image.
 
 Run with the following:
 
